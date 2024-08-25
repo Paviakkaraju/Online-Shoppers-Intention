@@ -1,0 +1,36 @@
+ABOUT THE DATASET:
+The dataset was sourced from University of California Irvine Machine Learning Repository.
+Sakar,C. and Kastro,Yomi. (2018). Online Shoppers Purchasing Intention Dataset. UCI Machine Learning Repository. https://doi.org/10.24432/C5F88Q.
+
+This dataset is designed to predict whether an online shopper will complete a transaction based on their page activity. 
+It contains 18 attributes, including 10 numerical and 8 categorical features. 
+The Revenue attribute is used as the class label, indicating whether a transaction was made (1) or not (0).
+
+Numerical Columns:
+Administrative: Number of pages visited related to account management during the session.
+Administrative Duration: Total time spent on administrative pages.
+Informational: Number of pages visited that provide information (e.g., FAQs, blogs).
+Informational Duration: Total time spent on informational pages.
+Product Related: Number of pages visited related to product browsing.
+Product Related Duration: Total time spent on product-related pages.
+Bounce Rate: The percentage of visitors who leave the site after viewing only one page.
+Exit Rate: The percentage of visitors who left the site from a specific page after visiting other pages.
+Page Value: Average value for a web page that a user visited before completing a transaction.
+Special Day: Indicates how close the visit is to a special day, with higher values suggesting a higher likelihood of completing a transaction.
+
+Categorical Columns:
+Operating Systems: The operating system used by the visitor.
+Browser: The browser used by the visitor.
+Region: The geographical region from which the visitor is accessing the site.
+Traffic Type: The source of the traffic (e.g., direct, referral, etc.).
+Visitor Type: Indicates whether the visitor is a returning visitor or a new one.
+Weekend: Boolean value indicating whether the session occurred on a weekend.
+Month: The month in which the session occurred.
+Revenue: The target label indicating whether the visitor completed a transaction (1) or not (0).
+
+PROBLEM STATEMENT:
+With the rise of e-commerce platforms, shopping has become as easy as a tap, allowing people to purchase products from around the world. 
+However, not every visitor who views a product page proceeds to complete a transaction. This could be due to various reasons, such as casual browsing without a specific intention, poor product recommendations, 
+or a website structure that makes it difficult for users to find what they want. Understanding online shoppers' intentions can significantly enhance sales through targeted marketing, improved recommendations, 
+and a more user-friendly shopping experience. Data-driven solutions play a crucial role in predicting whether visitors will complete a transaction based on their page activity, 
+providing valuable insights to optimize the online shopping experience.
